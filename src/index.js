@@ -100,7 +100,7 @@ const calculateTimeZone = (lat, lng) => {
     loc +
     "&timestamp=" +
     timestamp +
-    "&key=AIzaSyDCGt_4tOXu0ePgR7J4dNoi4bt67O7fv20";
+    "&key=YOUR_OWN_API_KEY_HERE";
 
   fetch(url)
     .then(res => res.json())
